@@ -7,7 +7,7 @@ def principal():
     if upload is not None:
         transcrever(upload)
 
-def trancresver (upload):
+def transcrever (upload):
     recognizer = sr.Recognizer()
     with sr.AudioFile(upload) as source:
         st.write("Processando...")
